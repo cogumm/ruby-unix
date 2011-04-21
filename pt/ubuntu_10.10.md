@@ -37,7 +37,7 @@ E substitua por:
 
     if [[ -n "$PS1" ]] ; then
 
-Entes do final do arquivos adicione um "fi" como abraixo:
+Entes do final do arquivos adicione um "fi" como abaixo:
 
     fi
     [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
