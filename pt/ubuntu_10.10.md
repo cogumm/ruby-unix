@@ -81,7 +81,11 @@ Agora o comando abaixo deve funcionar:
     $ ruby -v
     ruby 1.9.2p136 (2010-12-25 revision 30365) [x86_64-linux]
     $ gem -v
-    1.6.2
+    1.7.2
+
+Caso a gem não esteja nessa versão, basta dar o seguinte comando MUITO IMPORTANTE:
+
+    $ gem update --system
     
 **8º Instalando o Rails**
 
