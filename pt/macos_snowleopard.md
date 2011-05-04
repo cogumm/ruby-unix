@@ -54,4 +54,5 @@ Para modo de desenvolvimento a maioria das vezes sqlite é suficiente e já foi 
 Configurando Editor de Texto
 ===
 
-Como Editor de Texto utilizo o Textmate mas editor é uma questão de gosto e aprender a dominar o que escolheu. Como MacOS não possui nenhum editor gráfico mais robusto por default e o XCode não é simples de configurar para Ruby vamos deixar a decisão entre qual editor com você.
+Como Editor de Texto utilizo o Textmate mas editor é uma questão de gosto e aprender a dominar o que escolheu. Como MacOS não possui nenhum editor gráfico mais robusto por default e o XCode não é simples de configurar para Ruby vamos deixar a decisão entre qual editor com você.i
+
