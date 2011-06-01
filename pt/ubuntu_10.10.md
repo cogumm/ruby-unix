@@ -28,19 +28,6 @@ Abrindo o arquivo .bashrc:
 Coloque na última linha do arquivo como abaixo:
 
     [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-    
-Procure por:
-
-    [ -z "$PS1" ] && return
-
-E substitua por:
-
-    if [[ -n "$PS1" ]] ; then
-
-Entes do final do arquivos adicione um "fi" como abaixo:
-
-    fi
-    [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 Salve e feiche o bashrc.
 
@@ -81,7 +68,7 @@ Agora o comando abaixo deve funcionar:
     $ ruby -v
     ruby 1.9.2p136 (2010-12-25 revision 30365) [x86_64-linux]
     $ gem -v
-    1.7.2
+    1.8.5
 
 Caso a gem não esteja nessa versão, basta dar o seguinte comando MUITO IMPORTANTE:
 
